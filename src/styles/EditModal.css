@@ -1,0 +1,16 @@
+.contact-item {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.edit-modal {
+    position: absolute;
+    top: 100%; /* Posicionar debajo del contacto */
+    left: 0;
+    right: 0;
+    background: #fff;
+    border: 1px solid #ddd;
+    padding: 10px;
+    z-index: 1; /* Asegura que esté sobre otros elementos */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}

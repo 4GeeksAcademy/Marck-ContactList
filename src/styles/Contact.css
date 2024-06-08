@@ -1,0 +1,51 @@
+.contact-container {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.contact-image img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.contact-details {
+    flex-grow: 1;
+}
+
+.contact-details h3 {
+    margin: 0;
+    font-size: 1.2em;
+}
+
+.contact-details p {
+    margin: 5px 0;
+    font-size: 0.9em;
+    color: #555;
+}
+
+.contact-actions {
+    display: flex;
+    align-items: center;
+}
+
+.contact-actions button {
+    background: none;
+    border: none;
+    font-size: 1.2em;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.edit-button {
+    color: #4CAF50;
+}
+
+.delete-button {
+    color: #F44336;
+}
